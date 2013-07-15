@@ -1,0 +1,13 @@
+// Place all the styles related to the users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.field.input-prepend{
+	i.icon-user{
+		span.name-number{
+			margin-left: -5px;
+			vertical-align: top;
+			font-size: 11px;
+			color: rgb(94, 94, 94);
+		}
+	}
+}

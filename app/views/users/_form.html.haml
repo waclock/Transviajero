@@ -1,0 +1,38 @@
+= form_for (@user = (@user ? @user : User.new)) do |f|
+  - if !@no_errors&&@user.errors.any?
+    #error_explanation.alert.alert-danger
+      %h4= "Errores:"
+      %ul
+        - @user.errors.full_messages.each do |msg|
+          %li= msg.html_safe
+
+  .field.input-prepend
+    %span.add-on
+      %i.icon-user
+        %span.name-number= '1'
+    = f.text_field :first_name, :placeholder => 'Nombre'
+
+  .field.input-prepend
+    %span.add-on
+      %i.icon-user
+        %span.name-number= '2'
+    = f.text_field :last_name, :placeholder => 'Apellido'
+
+  .field.input-prepend
+    %span.add-on
+      %i.icon-envelope
+    = f.text_field :email, :placeholder => 'Email UC'
+
+  .field.input-prepend
+    %span.add-on
+      %i.icon-key
+    = f.password_field :password, :placeholder => 'Contraseña'
+  .field.input-prepend
+    %span.add-on
+      %i.icon-lock
+    = f.password_field :password_confirmation, :placeholder => 'Confirmar Contraseña'
+
+  %i.help-block
+
+  .actions
+    = f.submit 'Regístrate', :class => 'btn'

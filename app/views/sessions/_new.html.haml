@@ -1,0 +1,14 @@
+%h3 Ingresa
+= form_tag sessions_path, :class => "form form-horizontal" do
+	%p.field.input-prepend
+		%span.add-on
+			%i.icon-envelope
+		= text_field_tag :email, params[:email], :placeholder => "Email"
+	%p.field.input-prepend
+		%span.add-on
+			%i.icon-key
+		= password_field_tag :password, nil, :placeholder => "Contraseña"
+	%p
+		=submit_tag "Ingresa", :class => 'btn submit-btn'
+
+

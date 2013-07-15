@@ -1,0 +1,10 @@
+.modal.hide.fade.login_container#loginModal{ :tabindex => "-1", :role => "dialog" , "aria-labelledby"=>"loginModalLabel", "aria-hidden" => "true"}
+	.modal-header
+		%button.close{:type => "button","data-dismiss" => "modal", "aria-hidden" => "true" } x
+		%h3 Ingresa para poder evaluar
+	.modal-body
+		.register-box
+			%h3 Regístrate
+			=render partial: "users/form", :locals => {:@no_errors => true}
+		.login-box.centered-container
+			=render partial: "sessions/new", :locals => {:@no_errors => true}

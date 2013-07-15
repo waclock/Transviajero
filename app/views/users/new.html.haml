@@ -1,0 +1,7 @@
+.centered-container
+	%h3
+		Regístrate
+	= render 'form', :locals => {:@no_errors => @no_errors}
+
+	= link_to log_in_path do
+		¿Ya tienes cuenta? Ingresa aquí
