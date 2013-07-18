@@ -1,4 +1,55 @@
-<div class="mainContainer" style='min-height:800px;'>
-awepofajewpfoj
-wepfojawepofjaweofj
+<div class="scrollSpy borders"data-spy="scroll" data-target="#navbar">
+	<div class="home" id='page1' style='padding-top:60px'>
+		<div class="centered-container">
+			<div class="leftContainer">
+					<div class="subTitle">Nuestros servicios</div>
+					<div class="paragraph">
+					<div>			- Servicios de transfer:
+					</div>
+					<ul>
+						<li class='lista'>Santiago</li>
+						<li class='lista'>Rancagua</li>
+						<li class='lista'>Valparaíso</li>
+						<li class='lista'>San Fernando</li>
+						<li class='lista'>Santa Cruz</li>
+					</ul>
+				</div>
+				<div class="paragraph">
+					-	Servicios de Turismo
+				</div>
+				<div class="paragraph">
+
+			-	Transporte privado de pasajeros
+
+				</div>
+
+			</div>
+			<div class="midContainer" style='margin-left:5	px;width:240px;height:360px;display:inline-block;vertical-align:top;position:relative;'>
+				<img src="/images/logo_background.jpg">
+			</div>
+			<div class="rightContainer">
+				<div class="subTitle">Nuestra Flota</div>
+				<img src="/images/van1.jpg" class='bigPhoto'>
+				<br>
+				<div class="description">
+					Nuestra Flota consiste en vans full equipo, las cuales están capacitadas para transportar a 7 pasajeros, además del conductor.
+					<br> Cuentan con aire acondicionado además de proveer una alta seguridad con cinturones de seguridad y airbags.
+				</div>
+				<div class="descriptionLeft">
+					Contamos con lo último en tecnología para brindar el mejor servicio posible. Es nuestra meta el hacer que nuestros pasajeros tengan una experiencia agradable y cómoda a la hora de viajar con nosotros.
+				</div>
+				<img src="/images/van2.jpg" class='bigPhotoRight'>
+			</div>
+		</div>
+	</div>
+	  <%= render :partial => 'home/about_us' %>
+	  <%= render :partial => 'home/services' %>
+	  <%= render :partial => 'home/values' %>
+
+
 </div>
+<script type="text/javascript">
+$(document).ready(function(){
+$('body').scrollspy();
+});
+</script>

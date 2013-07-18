@@ -1,6 +1,287 @@
-// Place all the styles related to the home controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-
 @import "coloresw8";
+.borders{
+		border-left: 50px solid #121212;
+		border-right: 50px solid #121212;
+}
+.tableHeader{
+	font-weight: bold;
+	font-size: 25px;
+	text-align: center !important;
+}
+.centered-container{
+	min-height: 375px;
+	padding-bottom: 30px;
+	width: 1150px;
+	margin: 0 auto;
+}
+.tableInfo{
+	text-align: center !important;
+	font-size: 20px;
+}
+.home{
+	/*background: url(/images/wrap-bg.jpg) repeat;*/
+	background-color: #feca9f;
+	position: relative;
+	display: block;
+	height:580px;
+	width:auto;
+	margin-top: 40px;
+	.leftContainer{
+		position: relative;
+		width: 300px;
+		margin-left: 10px;
+		display: inline-block;
+		border-radius: 50px;
+		border: 5px solid #3c94d3;
+		height: 480px;
+		box-shadow: 10px 10px 5px #A38B78;
+	}
+	.rightContainer{
+		position: absolute;
+		display: inline-block;
+		vertical-align: top;
+		width: 575px;
+		float: left;
+		border-radius: 50px;
+		border: 5px solid #3c94d3;
+		margin-left: 0px;
+		height: 480px;
+		vertical-align: top;
+		box-shadow: 10px 10px 5px #A38B78;
+	}
+	.bigPhoto{
+	margin-top: 0px;
+	height: 188px;
+	width: 250px;
+	box-shadow: 10px 10px 5px #A38B78;
+	margin-left: 15px;
+	display: inline-block;
+	vertical-align: top;
+	float: left;
+	border-radius: 5px;
+}
+	.bigPhotoRight{
+		margin-top: 0px;
+		height: 188px;
+		width: 250px;
+		box-shadow: 10px 10px 5px #A38B78;
+		margin-right: 30px;
+		display: inline-block;
+		vertical-align: top;
+		float: right;
+		border-radius: 5px;
+	}
 
+	.descriptionLeft{
+		margin-left: 13px;
+		margin-top:10px;
+		text-align: center;
+		width: 260px;
+		color: #292d78;
+		display: inline-block;
+		float: left;
+		font-size: 16px;
+	}
+	.title{
+		font-size: 40px;
+		color: #292d78;
+		text-align: center;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		font-style: italic;
+		font-family: 'Avenir Next Bold';
+	}
+	.subTitle{
+		font-size: 30px;
+		color: #292d78;
+		text-align: center;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		font-style: italic;
+		font-family: 'Avenir Next Bold';
+	}
+	.description{
+		display: inline-block;
+		width: 250px;
+		height: auto;
+		vertical-align: top;
+		margin-left: 55px;
+		color: #292d78;
+		height: 180px;
+		font-size:16px;
+	}
+	.paragraph{
+		font-size: 20px;
+		color: #292d78;
+		margin-bottom: 20px;
+		margin-left: 10px;
+		margin-top: 30px;
+		font-family: 'Open Sans';
+	}
+	.lista{
+		margin-left: 20px;
+		margin-top: 20px;
+	}
+}
+.services{
+	/*background: url(/images/wrap-bg.jpg) repeat;*/
+	background-color: #2a2d78;
+	border-radius: 15px;
+	position: relative;
+	display: block;
+	height:1100px;
+	width:100%;
+	margin-top: -20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	.service{
+		width: 1100px;
+		min-height:300px;
+		box-shadow: 8px 8px 5px #2F1D5E;
+		border: 3px solid #3c94d3;
+		border-radius: 40px;
+		margin-top: 40px;
+			.pullDown{
+			margin-top:15px;
+		}
+	}
+	.title{
+		font-size: 40px;
+		color: #ffffff;
+		text-align: center;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		font-family: 'Avenir Next Bold';
+	}
+	.subTitle{
+		font-size: 30px;
+		color: #ffffff;
+		margin-top: 20px;
+		margin-left: 50px;
+		margin-bottom: 20px;
+		font-family: 'Open Sans';
+	}
+	.description{
+		display: inline-block;
+		width: 650px;
+		height: auto;
+		vertical-align: top;
+		margin-left: 55px;
+		color: #ffffff;
+		height: 180px;
+		font-size:20px;
+		font-family: 'Open Sans';
+	}
+}
+.values{
+	/*background: url(/images/wrap-bg.jpg) repeat;*/
+	background-color: #feca9f  !important;
+	position:relative;
+	display: block;
+	min-height:900px;
+	width: 100%;
+	padding-top: 30px;
+	.service{
+		margin-left: 100px;
+		width: 900px;
+		height: auto;
+		margin-top: 40px;
+		display: block;
+		position: relative;
+	}
+	.title{
+		font-size: 40px;
+		color: #292d78;
+		position: relative;
+		text-align: center;
+		margin-top: 0px;
+		font-style: italic;
+		font-family: 'Avenir Next Bold';
+	}
+	.subTitle{
+		font-size: 30px;
+		color: #292d78;
+		margin-top: 20px;
+		margin-left: 50px;
+		margin-bottom: 20px;
+		font-style: italic;
+		font-family: 'Open Sans';
+	}
+	.description{
+		display: inline-block;
+		width: 650px;
+		height: auto;
+		vertical-align: top;
+		margin-left: 55px;
+		color: #292d78;
+		height: 180px;
+		font-size:20px;
+	}
+}
+.about_us{
+	/*background: url(/images/wrap-bg.jpg) repeat;*/
+	display: inline-block;
+	position: relative;
+	background-color: #feca9f  !important;
+	padding-top: 20px;
+	margin-bottom: 20px;
+	background-color: #A9B2CA;
+	display: block;
+	height:900px;
+	width:100%;
+	vertical-align: top;
+	.leftContainer{
+		width: 350px;
+		display: inline-block;
+		border-radius: 15px;
+		border: 2px solid #3c94d3;
+		margin-left: 20px;
+		float: left;
+		height: 500px;
+		box-shadow: 10px 10px 5px #A38B78;
+	}
+	.subTitle{
+		font-size: 25px;
+		color: #292d78;
+		text-align: center;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		font-style: italic;
+		font-family: 'Open Sans';
+	}
+	.midContainer{
+		width:350px;
+		margin-left: 20px;
+		display: inline-block;
+		border-radius: 15px;
+		border: 2px solid #3c94d3;
+		height: 500px;
+		vertical-align: top;
+		box-shadow: 10px 10px 5px #A38B78;
+
+	}
+	.rightContainer{
+		vertical-align: top;
+		width:350px;
+		margin-right: 20px;
+		float: right;
+		display: inline-block;
+		border-radius: 15px;
+		border: 2px solid #3c94d3;
+		height: 500px;
+		box-shadow: 10px 10px 5px #A38B78;
+
+	}
+	.title{
+		font-size: 40px;
+		color: #292d78;
+		text-align: center;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		font-style: italic;
+		font-family: 'Avenir Next Bold';
+	}
+	.leftPhoto{
+
+	}
+}

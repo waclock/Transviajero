@@ -1,8 +1,9 @@
 CIic2513::Application.routes.draw do
   	
-
-  	get "home" => "home#index", :as => "home"
+  resources :trips
+    get "home" => "home#index", :as => "home"
   	root :to => "home#index"
+
 
 
 

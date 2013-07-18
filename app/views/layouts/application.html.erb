@@ -6,32 +6,32 @@
   <%= stylesheet_link_tag    "application.css" %>
   <%= javascript_include_tag "jquery-1.10.2.min" %>
   <%= javascript_include_tag "bootstrap.min" %>
+  <%= javascript_include_tag "bootstrap-scrollspy" %>
 </head>
-<body class='background'>
-<div class="navbar navbar-inverse" style="position: static;margin-left:auto;margin-right:auto;width:70%;margin-top:100px;">
+<body class='background' data-spy="scroll" data-target=".navbar" style='margin-top:0px;vertical-align:top;padding-top:0px;'>
+<div id='navbar'class="navbar navbar-inverse topbar"data-scrollspy='scrollspy' style="position: fixed;margin-left:auto;margin-right:auto;width:100%;margin-top:0px;vertical-align:top;padding-top:0px;z-index:1">
               <div class="navbar-inner">
-                <div class="container">
+                <div class="container" style='width:1150px;'>
                   <a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-inverse-collapse">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                   </a>
-                  <a class="brand" href="#">Transviajero</a>
+                  <a class="brand" href="#">TransviaJero</a>
                   <div class="nav-collapse collapse navbar-inverse-collapse">
                     <ul class="nav">
-                      <li class="active navOption"><a href="#">Inicio</a></li>
-                      <li class='navOption'><a href="#">Somos</a></li>
+                      <li class="active navOption"><a href="#page1">Inicio</a></li>
+                      <li class='navOption'><a href="#page2">Quienes Somos</a></li>
                       <li class="navOption dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Servicios <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                          <li style='margin-top:10px;'><a href="#">Aeropuerto</a></li>
-                          <li style='margin-top:10px;'><a href="#">Urbano</a></li>
-                          <li style='margin-top:10px;'><a href="#">Turismo</a></li>
+                          <li style='margin-top:10px;'><a href="#page3">Aeropuerto</a></li>
+                          <li style='margin-top:10px;'><a href="#page4">Urbano</a></li>
+                          <li style='margin-top:10px;'><a href="#page5">Turismo</a></li>
                         </ul>
-                      <li class='navOption'><a href="#">Valores</a></li>
-                      <li class='navOption'><a href="#">Galería</a></li>
-                      <li class='navOption'><a href="#">Contacto</a></li>
-                      </li>
+                      <li class='navOption'><a href="#page6">Cotizaciones</a></li>
+                      <li class='navOption'><a href="#page7">Reservas</a></li>
+                      <li class='navOption'><a href="#page8">Galería</a></li>
 
                     </ul>
 <!--                   
@@ -43,10 +43,15 @@ Buscador por si algun dia se usa
                 </div>
               </div><!-- /navbar-inner -->
             </div>
-<script type="text/javascript">
-$(document).ready(function(){
-$('.dropdown-toggle').dropdown()
-});
-</script>
+      <div class="administracion">
+        <%= yield %>
+      </div>
 </body>
 </html>
+<script type='text/javascript'>
+$("#navbar ul li a[href^='#']").on('click', function(e) {
+   e.preventDefault();
+   $('html, body').animate({ scrollTop: $(this.hash).offset().top }, 300);
+});
+$('.dropdown-toggle').dropdown();
+</script>
