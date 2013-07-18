@@ -28619,3 +28619,14 @@ Processing by HomeController#index as HTML
   Rendered home/_values.html.erb (2.2ms)
   Rendered home/index.html.erb within layouts/application (4.2ms)
 Completed 200 OK in 19ms (Views: 15.4ms | ActiveRecord: 0.4ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-18 03:49:48 -0400
+Processing by HomeController#index as HTML
+  [1m[35mTrip Load (0.5ms)[0m  SELECT "trips".* FROM "trips" 
+  Rendered home/_about_us.html.erb (0.2ms)
+  Rendered home/_services.html.erb (0.1ms)
+  Rendered home/_values.html.erb (1.6ms)
+  Rendered home/index.html.erb within layouts/application (41.8ms)
+Completed 200 OK in 72ms (Views: 67.8ms | ActiveRecord: 0.5ms)
