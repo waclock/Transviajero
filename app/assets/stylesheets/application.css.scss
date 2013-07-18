@@ -12,7 +12,12 @@
  *= require_tree .
  *= require font-awesome
  */
-
+@font-face {
+  font-family: 'transViajero';
+  src:font-url('blippo-mn-black.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 .content {
   background-color: #fff;
   margin: -20px -20px; /* negative indent the amount of the padding to maintain the grid system */
