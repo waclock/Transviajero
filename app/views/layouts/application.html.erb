@@ -51,7 +51,7 @@ Buscador por si algun dia se usa
 <script type='text/javascript'>
 $("#navbar ul li a[href^='#']").on('click', function(e) {
    e.preventDefault();
-   $('html, body').animate({ scrollTop: $(this.hash).offset().top }, 300);
+   $('html, body').animate({ scrollTop: $(this.hash).offset().top-40 }, 300);
 });
 $('.dropdown-toggle').dropdown();
 </script>
