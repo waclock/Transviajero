@@ -30873,3 +30873,34 @@ Processing by HomeController#index as HTML
   Rendered home/_values.html.erb (2.0ms)
   Rendered home/index.html.erb within layouts/application (4.3ms)
 Completed 200 OK in 18ms (Views: 14.4ms | ActiveRecord: 0.9ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-19 22:18:01 -0400
+Processing by HomeController#index as HTML
+  [1m[36mTrip Load (38.5ms)[0m  [1mSELECT "trips".* FROM "trips" [0m
+  Rendered home/_about_us.html.erb (0.5ms)
+  Rendered home/_services.html.erb (0.4ms)
+  Rendered home/_values.html.erb (0.8ms)
+  Rendered home/index.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 775ms (Views: 529.7ms | ActiveRecord: 115.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-19 22:18:22 -0400
+Processing by HomeController#index as HTML
+  [1m[35mTrip Load (0.5ms)[0m  SELECT "trips".* FROM "trips" 
+  Rendered home/_about_us.html.erb (0.1ms)
+  Rendered home/_services.html.erb (0.1ms)
+  Rendered home/_values.html.erb (2.3ms)
+  Rendered home/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 21ms (Views: 17.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-19 22:18:29 -0400
+Processing by HomeController#index as HTML
+  [1m[36mTrip Load (0.5ms)[0m  [1mSELECT "trips".* FROM "trips" [0m
+  Rendered home/_about_us.html.erb (0.1ms)
+  Rendered home/_services.html.erb (0.1ms)
+  Rendered home/_values.html.erb (0.9ms)
+  Rendered home/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 56ms (Views: 11.8ms | ActiveRecord: 0.5ms)

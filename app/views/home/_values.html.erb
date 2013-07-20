@@ -21,6 +21,7 @@
 						<th class='tableHeader'>Actividad</th>
 						<th class='tableHeader'>Observación</th>
 					</tr>
+					<%if false%>
 					<%@trip.each do |row|%>
 					<tr id='trip'+<%=row.id%>>
 						<td class='tableInfo'><%=row.origin%></td>
@@ -41,6 +42,7 @@
 						</tr>
 						<%end%>
 					<%end%>
+				<%end%>
 				</tbody>
 			</table>
 		</div>
