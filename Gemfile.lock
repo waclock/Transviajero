@@ -122,6 +122,7 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.22)
     multi_json (1.7.2)
+    newrelic_rpm (3.6.0.78)
     nokogiri (1.5.9)
     options (2.3.0)
       fattr
@@ -255,6 +256,7 @@ DEPENDENCIES
   hub (>= 1.10.2)
   jquery-rails
   kaminari
+  newrelic_rpm
   paperclip (~> 2.4.2)
   pg
   progress_bar
