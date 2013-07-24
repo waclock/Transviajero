@@ -34697,3 +34697,44 @@ Processing by HomeController#index as HTML
   Rendered home/_values.html.erb (3.0ms)
   Rendered home/index.html.erb within layouts/application (7.9ms)
 Completed 200 OK in 23ms (Views: 17.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-23 21:43:56 -0400
+Processing by HomeController#index as HTML
+  [1m[35mTrip Load (0.4ms)[0m  SELECT "trips".* FROM "trips" 
+  Rendered home/_about_us.html.erb (0.1ms)
+  Rendered home/_services.html.erb (0.1ms)
+  Rendered home/_values.html.erb (2.8ms)
+  Rendered home/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 22ms (Views: 17.7ms | ActiveRecord: 0.4ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-23 21:44:21 -0400
+Processing by HomeController#index as HTML
+  [1m[36mTrip Load (0.3ms)[0m  [1mSELECT "trips".* FROM "trips" [0m
+  Rendered home/_about_us.html.erb (0.5ms)
+  Rendered home/_services.html.erb (0.4ms)
+  Rendered home/_values.html.erb (2.0ms)
+  Rendered home/index.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 194ms (Views: 108.9ms | ActiveRecord: 41.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-23 21:47:15 -0400
+Processing by HomeController#index as HTML
+  [1m[35mTrip Load (0.5ms)[0m  SELECT "trips".* FROM "trips" 
+  Rendered home/_about_us.html.erb (0.1ms)
+  Rendered home/_services.html.erb (0.1ms)
+  Rendered home/_values.html.erb (1.0ms)
+  Rendered home/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 21ms (Views: 16.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-23 21:47:20 -0400
+Processing by HomeController#index as HTML
+  [1m[36mTrip Load (0.4ms)[0m  [1mSELECT "trips".* FROM "trips" [0m
+  Rendered home/_about_us.html.erb (0.1ms)
+  Rendered home/_services.html.erb (0.1ms)
+  Rendered home/_values.html.erb (1.4ms)
+  Rendered home/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 25ms (Views: 19.2ms | ActiveRecord: 0.4ms)
