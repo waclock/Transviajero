@@ -37737,3 +37737,25 @@ Processing by HomeController#index as HTML
   Rendered home/_values.html.erb (1.1ms)
   Rendered home/index.html.erb within layouts/application (8947.8ms)
 Completed 200 OK in 8985ms (Views: 8960.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/home?locale=es" for 127.0.0.1 at 2013-07-24 12:03:50 -0400
+Processing by HomeController#index as HTML
+  Parameters: {"locale"=>"es"}
+  [1m[35mTrip Load (0.6ms)[0m  SELECT "trips".* FROM "trips" 
+  Rendered home/_about_us.html.erb (0.2ms)
+  Rendered home/_services.html.erb (0.2ms)
+  Rendered home/_values.html.erb (1.3ms)
+  Rendered home/index.html.erb within layouts/application (77.3ms)
+Completed 200 OK in 94ms (Views: 89.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/home?locale=en" for 127.0.0.1 at 2013-07-24 12:03:53 -0400
+Processing by HomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[36mTrip Load (0.4ms)[0m  [1mSELECT "trips".* FROM "trips" [0m
+  Rendered home/_about_us.html.erb (0.1ms)
+  Rendered home/_services.html.erb (0.1ms)
+  Rendered home/_values.html.erb (1.0ms)
+  Rendered home/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 20ms (Views: 16.6ms | ActiveRecord: 0.4ms)
