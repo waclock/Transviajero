@@ -17,6 +17,7 @@ en:
   home_our_fleet: "Our Fleet"
   home_tourism: "Tourism services"
   home_private: "Private passenger transport"
+  home_transfer: "Transfer Services"
 
 es:
   our_services: "Nuestros Servicios"
@@ -33,3 +34,4 @@ es:
   home_our_fleet: "Nuestra Flota"
   home_tourism: "Servicios de Turismo"
   home_private: "Transporte privado de pasajeros"
+  hone_transfer: "Servicios de Transfer"
