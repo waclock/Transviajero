@@ -37781,3 +37781,50 @@ Processing by HomeController#index as HTML
   Rendered home/_values.html.erb (1.1ms)
   Rendered home/index.html.erb within layouts/application (7.2ms)
 Completed 200 OK in 23ms (Views: 18.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/home?locale=en" for 127.0.0.1 at 2013-07-24 12:28:57 -0400
+Processing by HomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[35mTrip Load (0.6ms)[0m  SELECT "trips".* FROM "trips" 
+  Rendered home/_about_us.html.erb (0.1ms)
+  Rendered home/_services.html.erb (0.1ms)
+  Rendered home/_values.html.erb (1.2ms)
+  Rendered home/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 29ms (Views: 24.0ms | ActiveRecord: 0.6ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/home?locale=en" for 127.0.0.1 at 2013-07-24 12:29:15 -0400
+Processing by HomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[36mTrip Load (0.3ms)[0m  [1mSELECT "trips".* FROM "trips" [0m
+  Rendered home/_about_us.html.erb (0.5ms)
+  Rendered home/_services.html.erb (0.4ms)
+  Rendered home/_values.html.erb (56.7ms)
+  Rendered home/index.html.erb within layouts/application (8806.5ms)
+Compiled bootstrap.css  (0ms)  (pid 1615)
+Compiled _coloresw8.css  (1ms)  (pid 1615)
+Compiled bootstrap_and_overrides.css  (2444ms)  (pid 1615)
+Compiled errors.css  (0ms)  (pid 1615)
+Compiled home.css  (46ms)  (pid 1615)
+Compiled scaffolds.css  (0ms)  (pid 1615)
+Compiled sessions.css  (10ms)  (pid 1615)
+Compiled users.css  (1ms)  (pid 1615)
+Compiled font-awesome.css  (97ms)  (pid 1615)
+Compiled application.css  (2646ms)  (pid 1615)
+Compiled jquery-1.10.2.min.js  (1ms)  (pid 1615)
+Compiled bootstrap.min.js  (0ms)  (pid 1615)
+Compiled bootstrap-scrollspy.js  (0ms)  (pid 1615)
+Completed 200 OK in 11960ms (Views: 11871.7ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/home?locale=es" for 127.0.0.1 at 2013-07-24 12:29:31 -0400
+Processing by HomeController#index as HTML
+  Parameters: {"locale"=>"es"}
+  [1m[35mTrip Load (0.4ms)[0m  SELECT "trips".* FROM "trips" 
+  Rendered home/_about_us.html.erb (0.4ms)
+  Rendered home/_services.html.erb (0.4ms)
+  Rendered home/_values.html.erb (1.7ms)
+  Rendered home/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 24ms (Views: 20.0ms | ActiveRecord: 0.4ms)
