@@ -21,7 +21,7 @@ CIic2513::Application.configure do
   # Generate digests for assets URLs
   config.assets.digest = true
 
-# Make sure to remove Rack::Cache if you are using it:
+# Make sure to remove Rack::ache if you are using it:
 config.middleware.delete "Rack::Cache"
 # Add the Rack::Cachely middleware:
 config.middleware.use Rack::Cachely

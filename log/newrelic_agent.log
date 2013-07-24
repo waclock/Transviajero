@@ -1,0 +1,15 @@
+# Logfile created on 2013-07-23 16:15:58 -0400 by logger.rb/31641
+[07/23/13 16:15:58 -0400 John-Peebless-MacBook-Pro.local (795)] INFO : Reading configuration from config/newrelic.yml
+[07/23/13 16:15:58 -0400 John-Peebless-MacBook-Pro.local (795)] INFO : Starting the New Relic Agent.
+[07/23/13 16:15:58 -0400 John-Peebless-MacBook-Pro.local (795)] INFO : Environment: development
+[07/23/13 16:15:58 -0400 John-Peebless-MacBook-Pro.local (795)] INFO : Dispatcher: thin
+[07/23/13 16:15:58 -0400 John-Peebless-MacBook-Pro.local (795)] INFO : Application: My Application
+[07/23/13 16:15:58 -0400 John-Peebless-MacBook-Pro.local (795)] WARN : Agent configured not to send data in this environment.
+[07/23/13 16:15:58 -0400 John-Peebless-MacBook-Pro.local (795)] INFO : Installing ActiveRecord instrumentation
+[07/23/13 16:15:58 -0400 John-Peebless-MacBook-Pro.local (795)] INFO : Installing Net instrumentation
+[07/23/13 16:15:58 -0400 John-Peebless-MacBook-Pro.local (795)] INFO : Installing Unicorn instrumentation
+[07/23/13 16:15:58 -0400 John-Peebless-MacBook-Pro.local (795)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[07/23/13 16:15:58 -0400 John-Peebless-MacBook-Pro.local (795)] INFO : Installing Rails 3 Controller instrumentation
+[07/23/13 16:15:58 -0400 John-Peebless-MacBook-Pro.local (795)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[07/23/13 16:15:59 -0400 John-Peebless-MacBook-Pro.local (795)] INFO : Installing Rails3 Error instrumentation
+[07/23/13 16:15:59 -0400 John-Peebless-MacBook-Pro.local (795)] INFO : Finished instrumentation

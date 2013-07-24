@@ -1,6 +1,6 @@
 <div class="values" id='page6'>
 	<div class="title center">
-	Nuestros Precios
+	Viajes Frecuentes
 	</div>
 	<div class="centered-container" style='margin-top:30px;'>
 		<div class="filters">
@@ -11,23 +11,21 @@
 
 		</div>
 		<div class="tableContainer">
-			<table class='table table-bordered'style='		box-shadow: 10px 10px 5px #A38B78;margin-top:10px;'>
+			<table class='table table-bordered'style='		box-shadow: 10px 10px 5px #A38B78;margin-top:10px;background-color:#3c94d3'>
 				<tbody id='fbody'>
 					<tr>
 						<th class='tableHeader'>Origen</th>
 						<th class='tableHeader'>Destino</th>
 					<th class='tableHeader'>Pasajeros</th>
-						<th class='tableHeader'>Valor</th>
 						<th class='tableHeader'>Actividad</th>
 						<th class='tableHeader'>Observación</th>
 					</tr>
-					<%if false%>
+					<%if true%>
 					<%@trip.each do |row|%>
 					<tr id='trip'+<%=row.id%>>
 						<td class='tableInfo'><%=row.origin%></td>
 						<td class='tableInfo'><%=row.destination%></td>
 						<td class='tableInfo'><%=row.passenger%></td>
-						<td class='tableInfo'><%=row.value%></td>
 						<td class='tableInfo'><%=row.activity%></td>
 						<td class='tableInfo'><%=row.observation%></td>
 					</tr>
@@ -36,7 +34,6 @@
 							<td class='tableInfo'><%=row.destination%></td>
 							<td class='tableInfo'><%=row.origin%></td>
 							<td class='tableInfo'><%=row.passenger%></td>
-							<td class='tableInfo'><%=row.value%></td>
 							<td class='tableInfo'><%=row.activity%></td>
 							<td class='tableInfo'><%=row.observation%></td>
 						</tr>
