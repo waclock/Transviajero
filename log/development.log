@@ -37867,3 +37867,14 @@ ActionController::RoutingError (No route matches [GET] "/assets/jquery-1.10.2.mi
   script/rails:6:in `<main>'
 
 
+
+
+Started GET "/home?locale=es" for 127.0.0.1 at 2013-07-24 12:53:36 -0400
+Processing by HomeController#index as HTML
+  Parameters: {"locale"=>"es"}
+  [1m[36mTrip Load (0.4ms)[0m  [1mSELECT "trips".* FROM "trips" [0m
+  Rendered home/_about_us.html.erb (0.1ms)
+  Rendered home/_services.html.erb (0.1ms)
+  Rendered home/_values.html.erb (1.2ms)
+  Rendered home/index.html.erb within layouts/application (9895.4ms)
+Completed 200 OK in 9943ms (Views: 9912.0ms | ActiveRecord: 1.6ms)
