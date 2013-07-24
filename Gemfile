@@ -20,7 +20,7 @@ group :assets do
   gem 'coffee-rails', '~> 3.2.1'
   gem 'uglifier', '>= 1.0.3'
 end
-
+gem 'rails-i18n', '~> 3.0.0.pre' # For 3.x
 gem 'rack-cachely'
 gem 'newrelic_rpm'
 gem 'jquery-rails'

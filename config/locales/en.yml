@@ -2,4 +2,28 @@
 # See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 en:
-  hello: "Hello world"
+  our_services: "Our Services"
+  gallery: "Gallery"
+  home: "Home"
+  about_us: "About Us"
+  services: "Services"
+  airport: "Airport"
+  urban: "Urban"
+  tourism: "Tourism"
+  bookings: "Bookings"
+  home_description1: "Our fleet consists of full equipment vans, which are able to transport 7 passengers, plus driver."
+  home_description1_1: "They have air conditioning in addition to providing high safety with seatbelts and airbags."
+  home_description2: "We have the latest technology to provide the best service possible. It is our goal to make our passengers have an enjoyable and comfortable experience when traveling with us."
+
+es:
+  our_services: "Nuestros Servicios"
+  gallery: "Galería"
+  home: "Inicio"
+  about_us: "Quienes Somos"
+  services: "Servicios"
+  airport: "Aeropuerto"
+  urban: "Urbano"
+  bookings: "Reservas"
+  home_description1: "Nuestra Flota consiste en vans full equipo, las cuales están capacitadas para transportar a 7 pasajeros, además del conductor."
+  home_description1_1: "Cuentan con aire acondicionado además de proveer una alta seguridad con cinturones de seguridad y airbags."
+  home_description2: "Contamos con lo último en tecnología para brindar el mejor servicio posible. Es nuestra meta el hacer que nuestros pasajeros tengan una experiencia agradable y cómoda a la hora de viajar con nosotros."

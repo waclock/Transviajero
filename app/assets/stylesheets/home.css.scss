@@ -29,7 +29,6 @@
 	width:auto;
 	margin-top: 40px;
 	.leftContainer{
-		background:#3c94d3;
 		position: relative;
 		width: 300px;
 		margin-left: 10px;
@@ -37,6 +36,7 @@
 		// border-radius: 50px;
 		border: 5px solid #3c94d3;
 		height: 480px;
+		background:#3c94d3;
 		box-shadow: 7px 7px 5px #BEBEBD;	
 	}
 	.rightContainer{
@@ -139,12 +139,11 @@
 	padding-top: 20px;
 	padding-bottom: 20px;
 	.service{
-		background: #3c94d3;
+		background:#3c94d3;
+		box-shadow: 7px 7px 5px #BEBEBD;
 		width: 1100px;
 		min-height:300px;
-		box-shadow: 8px 8px 5px #2F1D5E;
 		border: 3px solid #3c94d3;
-		border-radius: 40px;
 		margin-top: 40px;
 			.pullDown{
 			margin-top:15px;
@@ -198,11 +197,10 @@
 	}
 	.title{
 		font-size: 40px;
-		color: #292d78;
+		color: #3c94d3;
 		position: relative;
 		text-align: center;
 		margin-top: 0px;
-		font-style: italic;
 		font-family: 'Avenir Next Bold';
 	}
 	.subTitle{
@@ -220,7 +218,7 @@
 		height: auto;
 		vertical-align: top;
 		margin-left: 55px;
-		color: #292d78;
+		color: #3c94d3;
 		height: 180px;
 		font-size:20px;
 	}

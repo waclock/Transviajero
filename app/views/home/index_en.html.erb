@@ -1,0 +1,55 @@
+<div class="scrollSpy borders"data-spy="scroll" data-target="#navbar">
+	<div class="home" id='page1' style='padding-top:60px'>
+		<div class="centered-container">
+			<div class="leftContainer">
+					<div class="subTitle">Our Services</div>
+					<div class="paragraph">
+					<div>			- Transfer services:
+					</div>
+					<ul>
+						<li class='lista'>Santiago</li>
+						<li class='lista'>Rancagua</li>
+						<li class='lista'>Valparaíso</li>
+						<li class='lista'>San Fernando</li>
+						<li class='lista'>Santa Cruz</li>
+					</ul>
+				</div>
+				<div class="paragraph">
+					-	Tourism services
+				</div>
+				<div class="paragraph">
+
+			-	Private passenger transport
+
+				</div>
+
+			</div>
+			<div class="midContainer" style='margin-left:10px;width:240px;height:360px;display:inline-block;vertical-align:top;position:relative;'>
+				<img src="/images/logo_background.png">
+			</div>
+			<div class="rightContainer">
+				<div class="subTitle">Our Fleet</div>
+				<img src="/images/van1.jpg" class='bigPhoto'>
+				<br>
+				<div class="description">
+					Our fleet consists of full equipment vans, which are able to carry 7 passengers, plus driver.
+					<br>They have air conditioning in addition to providing high safety with seatbelts and airbags.	
+				</div>
+				<div class="descriptionLeft">
+				We have the latest technology to provide the best service possible. It is our goal to make our passengers have an enjoyable and comfortable experience when traveling with us.
+				</div>
+				<img src="/images/van2.jpg" class='bigPhotoRight'>
+			</div>
+		</div>
+	</div>
+	  <%= render :partial => 'home/about_us' %>
+	  <%= render :partial => 'home/services' %>
+	  <%= render :partial => 'home/values' %> 
+
+
+</div>
+<script type="text/javascript">
+$(document).ready(function(){
+$('body').scrollspy();
+});
+</script>
