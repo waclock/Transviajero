@@ -37770,3 +37770,14 @@ Processing by HomeController#index as HTML
   Rendered home/_values.html.erb (1.1ms)
   Rendered home/index.html.erb within layouts/application (7.6ms)
 Completed 200 OK in 28ms (Views: 22.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/home?locale=en" for 127.0.0.1 at 2013-07-24 12:23:06 -0400
+Processing by HomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[36mTrip Load (0.5ms)[0m  [1mSELECT "trips".* FROM "trips" [0m
+  Rendered home/_about_us.html.erb (0.1ms)
+  Rendered home/_services.html.erb (0.1ms)
+  Rendered home/_values.html.erb (1.1ms)
+  Rendered home/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 23ms (Views: 18.1ms | ActiveRecord: 0.5ms)
