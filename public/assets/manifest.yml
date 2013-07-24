@@ -7,6 +7,8 @@ application.js: application-1a222a07ff4f50ff4e9cf04df71e9474.js
 application/index.js: application-1a222a07ff4f50ff4e9cf04df71e9474.js
 application.css: application-9baec6fdc72940f4980195f7cc94afb4.css
 application/index.css: application-9baec6fdc72940f4980195f7cc94afb4.css
+bootstrap.css: bootstrap-1f2b1897d0589e2074f3726552bd7564.css
+bootstrap/index.css: bootstrap-1f2b1897d0589e2074f3726552bd7564.css
 glyphicons-halflings-white.png: glyphicons-halflings-white-6cccd17a7aed91dbc0157d343c68c0d9.png
 glyphicons-halflings-white/index.png: glyphicons-halflings-white-6cccd17a7aed91dbc0157d343c68c0d9.png
 glyphicons-halflings.png: glyphicons-halflings-2851b489e8c39f8fad44fc10efb99c3e.png
