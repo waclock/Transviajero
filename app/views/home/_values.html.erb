@@ -1,24 +1,24 @@
 <div class="values" id='page6'>
 	<div class="title center">
-	Viajes Frecuentes
+	<%=t(:values_title)%>
 	</div>
 	<div class="centered-container" style='margin-top:30px;'>
 		<div class="filters">
 			<div class="description" style='height:auto;width:530px;'>
-				Escribe alguna ciudad/actividad para filtrar los resultados: 
+				<%=t(:values_filter)%>
 			</div>
-			<input id="searchInput" placeholder="Ejemplo: Santiago" style='text-align:center;border-radius:15px; margin-top:-3px;' >
+			<input id="searchInput" placeholder=" Santiago" style='text-align:center;border-radius:15px; margin-top:-3px;' >
 
 		</div>
 		<div class="tableContainer">
 			<table class='table table-bordered'style='		box-shadow: 10px 10px 5px #A38B78;margin-top:10px;background-color:#3c94d3'>
 				<tbody id='fbody'>
 					<tr>
-						<th class='tableHeader'>Origen</th>
-						<th class='tableHeader'>Destino</th>
-					<th class='tableHeader'>Pasajeros</th>
-						<th class='tableHeader'>Actividad</th>
-						<th class='tableHeader'>Observación</th>
+						<th class='tableHeader'>		<%=t(:values_origin)%></th>
+						<th class='tableHeader'>		<%=t(:values_destination)%></th>
+					<th class='tableHeader'>				<%=t(:values_passengers)%></th>
+						<th class='tableHeader'>				<%=t(:values_activity)%></th>
+						<th class='tableHeader'>				<%=t(:values_observation)%></th>
 					</tr>
 					<%if true%>
 					<%@trip.each do |row|%>
