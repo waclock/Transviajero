@@ -25,18 +25,34 @@
 					<tr id='trip'+<%=row.id%>>
 						<td class='tableInfo'><%=row.origin%></td>
 						<td class='tableInfo'><%=row.destination%></td>
+						<%if I18n.locale.to_s=='es' %>
 						<td class='tableInfo'><%=row.passenger%></td>
+						<%else%>
+							<td class='tableInfo'><%=row.passenger_en%></td>
+						<%end%>
 						<td class='tableInfo'><%=row.activity%></td>
-						<td class='tableInfo'><%=row.observation%></td>
+						<%if I18n.locale.to_s=='es' %>
+							<td class='tableInfo'><%=row.observation%></td>
+						<%else%>
+							<td class='tableInfo'><%=row.observation_en%></td>
+						<%end%>
 					</tr>
 						<%if row.viceversa%>
 						<tr>
 							<td class='tableInfo'><%=row.destination%></td>
 							<td class='tableInfo'><%=row.origin%></td>
-							<td class='tableInfo'><%=row.passenger%></td>
-							<td class='tableInfo'><%=row.activity%></td>
+						<%if I18n.locale.to_s=='es' %>
+						<td class='tableInfo'><%=row.passenger%></td>
+						<%else%>
+							<td class='tableInfo'><%=row.passenger_en%></td>
+						<%end%>
+						<td class='tableInfo'><%=row.activity%></td>
+						<%if I18n.locale.to_s=='es' %>
 							<td class='tableInfo'><%=row.observation%></td>
-						</tr>
+						<%else%>
+							<td class='tableInfo'><%=row.observation_en%></td>
+						<%end%>
+					</tr>
 						<%end%>
 					<%end%>
 				<%end%>
