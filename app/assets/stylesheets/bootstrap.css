@@ -15,6 +15,7 @@ min-height: 550px;
 height: 100%;
 margin-left: auto;
 margin-right: auto;
+margin-bottom: -30px;
   }
 .main{
   background-color: black;

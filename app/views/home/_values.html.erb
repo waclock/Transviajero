@@ -23,8 +23,16 @@
 					<%if true%>
 					<%@trip.each do |row|%>
 					<tr id='trip'+<%=row.id%>>
+						<%if I18n.locale.to_s=='en' and row.origin.to_s=='Aeropuerto'%>
+						<td class='tableInfo'>Airport</td>
+						<%else %>
 						<td class='tableInfo'><%=row.origin%></td>
+						<%end%>
+						<%if I18n.locale.to_s=='en' and row.destination.to_s=='Aeropuerto'%>
+						<td class='tableInfo'>Airport</td>
+						<%else %>
 						<td class='tableInfo'><%=row.destination%></td>
+						<%end%>
 						<%if I18n.locale.to_s=='es' %>
 						<td class='tableInfo'><%=row.passenger%></td>
 						<%else%>
@@ -39,8 +47,16 @@
 					</tr>
 						<%if row.viceversa%>
 						<tr>
-							<td class='tableInfo'><%=row.destination%></td>
-							<td class='tableInfo'><%=row.origin%></td>
+						<%if I18n.locale.to_s=='en' and row.destination.to_s=='Aeropuerto'%>
+						<td class='tableInfo'>Airport</td>
+						<%else %>
+						<td class='tableInfo'><%=row.destination%></td>
+						<%end%>
+						<%if I18n.locale.to_s=='en' and row.origin.to_s=='Aeropuerto'%>
+						<td class='tableInfo'>Airport</td>
+						<%else %>
+						<td class='tableInfo'><%=row.origin%></td>
+						<%end%>
 						<%if I18n.locale.to_s=='es' %>
 						<td class='tableInfo'><%=row.passenger%></td>
 						<%else%>

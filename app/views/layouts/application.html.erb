@@ -7,6 +7,9 @@
   <%= javascript_include_tag "jquery-1.10.2.min" %>
   <%= javascript_include_tag "bootstrap.min" %>
   <%= javascript_include_tag "bootstrap-scrollspy" %>
+  <link rel="icon" 
+      type="image/ico" 
+      href="/images/icon.png" />
 </head>
 <body class='background' data-spy="scroll" data-target=".navbar" style='margin-top:0px;vertical-align:top;padding-top:0px;'>
 <div id='navbar'class="navbar navbar-inverse topbar"data-scrollspy='scrollspy' style="position: fixed;margin-left:auto;margin-right:auto;width:100%;margin-top:0px;vertical-align:top;padding-top:0px;z-index:1">
@@ -29,9 +32,9 @@
                           <li style='margin-top:10px;'><a href="#page4"><%=t(:urban)%></a></li>
                           <li style='margin-top:10px;'><a href="#page5"><%=t(:tourism)%></a></li>
                         </ul>
-                      <!--<li class='navOption'><a href="#page6">Cotizaciones</a></li>-->
-                      <li class='navOption'><a href="#page6"><%=t(:bookings)%></a></li>
-                      <li class='navOption'><a href="#page7"><%=t(:gallery)%></a></li>
+                      <!--<li class='navOption'><a href="#page6">Cotizaciones</a></li>
+                      <li class='navOption'><a href="#page6"><%=t(:gallery)%></a></li>-->
+                      <li class='navOption'><a href="#page7"><%=t(:contact)%></a></li>
                     </ul>
                   </div><!-- /.nav-collapse -->
                 <ul class="nav pull-right">
@@ -45,6 +48,30 @@
         <%= yield %>
       </div>
 </body>
+      <footer id='page7' class="foto-b">
+          <div class="navOption">
+            <div class="comments"><%=t(:contact_comment)%> </div>
+
+            <div class="footer-text2 comments " style="margin-top:10px;"><%=t(:email)%> <a class='linkColor'href="mailto:transviajero@gmail.com?Subject=<%=t(:contact)%>" target="_top">transviajero@gmail.com</a></div>
+            <br>
+            <br>
+            <div class="comments"><%=t(:facebook)%></div>
+            <br>
+            <a target="_blank" href="https://www.facebook.com/transviajero">
+
+              <span class="footer-icon linkColor icon-facebook">&nbsp;</span>
+              <span class="footer-text linkColor">Transviajero</span></a>
+              <br>
+              <a target="_blank" href="http://twitter.com/transviajero">
+              <span class="linkColor footer-icon icon-twitter">&nbsp;</span><span class="linkColor footer-text ">@transviajero</span></a>
+          <br>
+          <br>
+          <br>
+          <p style="color:white;">
+          © Copyright Transviajero 2013. All Rights Reserved.
+          </p>
+          </div>
+      </footer>
 </html>
 <script type='text/javascript'>
 $("#navbar ul li a[href^='#']").on('click', function(e) {

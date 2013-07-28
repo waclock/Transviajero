@@ -18,6 +18,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 .content {
   background-color: #fff;
   margin: -20px -20px; /* negative indent the amount of the padding to maintain the grid system */
@@ -37,6 +38,18 @@ height: 20px;
 border-left: 1px solid #ffffff;
 padding-top: 0px 15px 10px !important;
 vertical-align: top;
+}
+.foto-b{
+    padding-top:20px;
+    height: 250px;
+    background-image: url(/images/contact.png);
+    background-position: -250px 1000px;
+}
+.comments{
+  color: #fff !important;
+}
+.linkColor{
+  color: #C9C6C6 !important;
 }
 .background{
 	background: url(/images/wrap-bg.jpg) repeat;
