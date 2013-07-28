@@ -51841,3 +51841,58 @@ Processing by HomeController#index as HTML
   Rendered home/_values.html.erb (3.1ms)
   Rendered home/index.html.erb within layouts/application (10.0ms)
 Completed 200 OK in 25ms (Views: 20.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/home?locale=es" for 127.0.0.1 at 2013-07-28 19:51:56 -0400
+Processing by HomeController#index as HTML
+  Parameters: {"locale"=>"es"}
+  [1m[35mTrip Load (0.5ms)[0m  SELECT "trips".* FROM "trips" 
+  Rendered home/_about_us.html.erb (0.4ms)
+  Rendered home/_services.html.erb (0.8ms)
+  Rendered home/_values.html.erb (1.8ms)
+  Rendered home/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 26ms (Views: 22.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/home?locale=en" for 127.0.0.1 at 2013-07-28 19:52:00 -0400
+Processing by HomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[36mTrip Load (0.5ms)[0m  [1mSELECT "trips".* FROM "trips" [0m
+  Rendered home/_about_us.html.erb (0.7ms)
+  Rendered home/_services.html.erb (0.9ms)
+  Rendered home/_values.html.erb (1.7ms)
+  Rendered home/index.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 36ms (Views: 29.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/home?locale=es" for 127.0.0.1 at 2013-07-28 19:52:15 -0400
+Processing by HomeController#index as HTML
+  Parameters: {"locale"=>"es"}
+  [1m[35mTrip Load (0.5ms)[0m  SELECT "trips".* FROM "trips" 
+  Rendered home/_about_us.html.erb (0.3ms)
+  Rendered home/_services.html.erb (0.7ms)
+  Rendered home/_values.html.erb (1.6ms)
+  Rendered home/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 23ms (Views: 18.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/home?locale=es" for 127.0.0.1 at 2013-07-28 19:57:50 -0400
+Processing by HomeController#index as HTML
+  Parameters: {"locale"=>"es"}
+  [1m[36mTrip Load (0.3ms)[0m  [1mSELECT "trips".* FROM "trips" [0m
+  Rendered home/_about_us.html.erb (0.4ms)
+  Rendered home/_services.html.erb (0.6ms)
+  Rendered home/_values.html.erb (1.6ms)
+  Rendered home/index.html.erb within layouts/application (9011.8ms)
+Completed 200 OK in 9053ms (Views: 9025.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/home?locale=es" for 127.0.0.1 at 2013-07-28 19:58:09 -0400
+Processing by HomeController#index as HTML
+  Parameters: {"locale"=>"es"}
+  [1m[35mTrip Load (0.6ms)[0m  SELECT "trips".* FROM "trips" 
+  Rendered home/_about_us.html.erb (0.6ms)
+  Rendered home/_services.html.erb (1.4ms)
+  Rendered home/_values.html.erb (1.7ms)
+  Rendered home/index.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 29ms (Views: 24.4ms | ActiveRecord: 0.6ms)

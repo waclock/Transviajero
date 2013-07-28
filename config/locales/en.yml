@@ -2,6 +2,7 @@
 # See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 en:
+  call_us: "Or call us: +56993303049 , +56991911521"
   Aeropuerto: "Airport"
   contact_comment: "Do you need to contact us?"
   email: "Send us an email to "
@@ -56,6 +57,7 @@ en:
   values_activity: "Activity"
   values_observation: "Observation"
 es:
+  call_us: "O llamanos a: +56993303049 , +56991911521"
   Aeropuerto: "Aeropuerto"
   contact_comment: "¿Necesitas contactarnos?"
   email: "Envíanos un email a "
