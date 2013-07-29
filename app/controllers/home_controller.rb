@@ -2,7 +2,10 @@ class HomeController < ApplicationController
  
  before_filter :cache_loading, :only => [:index]
 
- def cache_loading
+def zohoverify
+   return render :partial => "verifyforzoho"
+end
+def cache_loading
   headers['Cache-Control'] = 'public; max-age=86400'
 end
 
