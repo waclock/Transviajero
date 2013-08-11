@@ -52271,3 +52271,27 @@ Started GET "/zohoverify/verifyforzoho.html" for 127.0.0.1 at 2013-07-29 11:24:5
 Processing by HomeController#zohoverify as HTML
   Rendered home/_verifyforzoho.html.erb (0.5ms)
 Completed 200 OK in 3ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-11 16:34:09 -0400
+Processing by HomeController#index as HTML
+  [1m[36mTrip Load (3.6ms)[0m  [1mSELECT "trips".* FROM "trips" [0m
+  Rendered home/_about_us.html.erb (1.1ms)
+  Rendered home/_services.html.erb (1.9ms)
+  Rendered home/_values.html.erb (8.2ms)
+  Rendered home/index.html.erb within layouts/application (8950.6ms)
+Compiled bootstrap.css  (1ms)  (pid 1059)
+Compiled _coloresw8.css  (3ms)  (pid 1059)
+Compiled bootstrap_and_overrides.css  (2589ms)  (pid 1059)
+Compiled errors.css  (19ms)  (pid 1059)
+Compiled home.css  (145ms)  (pid 1059)
+Compiled scaffolds.css  (1ms)  (pid 1059)
+Compiled sessions.css  (13ms)  (pid 1059)
+Compiled users.css  (1ms)  (pid 1059)
+Compiled font-awesome.css  (21ms)  (pid 1059)
+Compiled application.css  (3325ms)  (pid 1059)
+Compiled jquery-1.10.2.min.js  (1ms)  (pid 1059)
+Compiled bootstrap.min.js  (0ms)  (pid 1059)
+Compiled bootstrap-scrollspy.js  (0ms)  (pid 1059)
+Completed 200 OK in 13319ms (Views: 13136.1ms | ActiveRecord: 44.8ms)
