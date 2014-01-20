@@ -36,6 +36,7 @@ gem 'aws-s3', :require => 'aws/s3'
 #heroku
 #gem 'newrelic_rpm'
 #gem 'delayed_job_active_record'
+gem 'rails_12factor'
 
 gem "unicorn", ">= 4.3.1"
 gem "haml-rails", ">= 0.4"
