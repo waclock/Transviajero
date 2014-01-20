@@ -22,9 +22,9 @@ CIic2513::Application.configure do
   config.assets.digest = true
 
 # Make sure to remove Rack::ache if you are using it:
-config.middleware.delete "Rack::Cache"
+#config.middleware.delete "Rack::Cache"
 # Add the Rack::Cachely middleware:
-config.middleware.use Rack::Cachely
+#config.middleware.use Rack::Cachely
 # Turn on caching:
 config.action_controller.perform_caching = true
   # Defaults to nil and saved in location specified by config.assets.prefix
